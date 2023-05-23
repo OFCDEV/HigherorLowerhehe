@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(MainActivity.this,"Guess is Right!",Toast.LENGTH_SHORT).show();
         }
 
-        Toast.makeText(MainActivity.this,guessEditText.getText().toString(),Toast.LENGTH_SHORT).show();
+        //Toast.makeText(MainActivity.this,guessEditText.getText().toString(),Toast.LENGTH_SHORT).show();
     }
 
     @Override
